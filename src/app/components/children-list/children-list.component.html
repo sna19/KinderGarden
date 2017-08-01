@@ -1,0 +1,14 @@
+<md-grid-list md-gutter="1" cols="5">
+<md-grid-tile style="direction: rtl" *ngFor="let childAtt of childrenData">
+  <md-card md-theme="dark-orange" md-theme-watch>
+    <md-card-title>{{childAtt.child.name}}</md-card-title>
+    <md-card-content layout="row" layout-align="space-between">
+      <md-card-actions layout="column">
+      <button>
+        <img class="png-icon" (click)="openDialog(childAtt)" src="{{configurationService.getImagesSize()}}/{{childAtt.child.image}}">
+      </button>
+    </md-card-actions>
+  </md-card-content>
+</md-card>
+</md-grid-tile> 
+</md-grid-list>     

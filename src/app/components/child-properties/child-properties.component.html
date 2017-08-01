@@ -1,0 +1,23 @@
+<h2 dir="rtl" md-dialog-title>אישור נוכחות הילד</h2>
+
+<md-dialog-actions dir="rtl">
+
+<md-card>
+  <md-card-header>
+    <md-card-title>אושר שונביץ</md-card-title>
+    <md-card-subtitle>גן כרכום</md-card-subtitle>
+  </md-card-header>
+  <img md-card-image src="{{configurationService.getImagesSize()}}/{{selectedChildAtt.child.image}}">
+  <md-card-content>
+    <p>
+      האם אושר שונביץ הגיע לגן? 
+    </p>
+  </md-card-content>
+  <md-card-actions>
+    <button md-button (click)="onAttendingClick()" [md-dialog-close]="true">הגיע</button>
+    <button md-button (click)="onMissingClick()" [md-dialog-close]="true">טרם</button>
+  </md-card-actions>
+</md-card>
+
+
+</md-dialog-actions>

@@ -1,0 +1,25 @@
+{
+	"children":  [
+
+    {"id": 1, "name": "ניקיטה - עם טלפון", "image": "1.jpg", "phone": "+972544278850"},
+    {"id": 2, "name": "אבי כוהן", "image": "2.jpg"},
+    {"id": 3, "name": "אבי כוהן", "image": "3.jpg"},
+    {"id": 4, "name": "אבי כוהן", "image": "4.jpg"},
+    {"id": 5, "name": "ניקיטה", "image": "5.jpg"},
+    {"id": 6, "name": "אבי כוהן", "image": "6.jpg"},
+    {"id": 7, "name": "אבי כוהן", "image": "7.jpg"},
+    {"id": 8, "name": "אבי כוהן", "image": "8.jpg"},
+    {"id": 9, "name": "ניקיטה", "image": "9.jpg"},
+    {"id": 10, "name": "אבי כוהן", "image": "10.jpg"},
+    {"id": 11, "name": "אבי כוהן", "image": "11.jpg"},
+    {"id": 12, "name": "אבי כוהן", "image": "12.jpg"},
+    {"id": 13, "name": "ניקיטה", "image": "13.jpg"},
+    {"id": 14, "name": "אבי כוהן", "image": "14.jpg"},
+    {"id": 15, "name": "אבי כוהן", "image": "15.jpg"},
+    {"id": 16, "name": "אבי כוהן", "image": "16.jpg"},
+    {"id": 17, "name": "ניקיטה", "image": "17.jpg"},
+    {"id": 18, "name": "אבי כוהן", "image": "18.jpg"},
+    {"id": 19, "name": "אבי כוהן", "image": "19.jpg"},
+    {"id": 20, "name": "אבי כוהן", "image": "20.jpg"}
+  ]
+}
